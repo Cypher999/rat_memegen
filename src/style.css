@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: linear-gradient(to right,rgb(1, 76, 167),rgb(0, 114, 253));
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+
+header h2{
+    margin-top:10px;
+}
+
+header p{
+    margin-top:10px;
+    margin-left: auto;
+}
+
+.Content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.Content .inner-content{
+    margin:40px;
+    width: 100%;
+}
+
+.Content .inner-content .text-box{
+  display: block;
+}
+
+.Content .inner-content .button-box {
+  display: block;
+}
+
+.Content .inner-content input.textbox{
+    margin:10px;
+    padding:10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.Content .inner-content select.textbox {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  width: 100%;
+}
+
+.Content .inner-content button.button{
+    margin:10px;
+    padding:10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    color:white;
+    background-image: linear-gradient(to right,rgb(1, 76, 167),rgb(0, 114, 253));
+    display: inline-block;
+}
+
+.inner-content img{
+    width: 75%;
+    margin: auto;
+    display: block;
+}
+
+@media only screen and (min-width:900px){
+  .Content .inner-content button.button {
+    width: 40%;
+  }
+  .Content .inner-content input.textbox {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width:900px){
+  .Content .inner-content button.button {
+    width: 100%;
+  }
+
+    .Content .inner-content input.textbox {
+    width: 100%;
+  }
+}
