@@ -10,7 +10,7 @@ npm install
 npm start
 ```
 
-compatible with linux,windows and android (using termux / python compiler application)
+compatible with linux,windows and android (using termux)
 
 ##### How to Use?
 ```
